@@ -206,7 +206,7 @@ html input:focus {
 }
 
 .wrap .top {
-  background: url(../img/bg-01.png) no-repeat center;
+  background: url(../img/bg-02.png) no-repeat center;
   background-size: cover;
 }
 
@@ -439,7 +439,8 @@ html input:focus {
   background: #fff;
   border-radius: 31px;
   width: 30.4%;
-  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.06);
   margin-right: 50px;
 }
 
@@ -611,6 +612,21 @@ html input:focus {
   font-size: 1.6rem;
   color: #484848;
   padding: 20px;
+}
+
+.wrap .sub-con .login-form form .txt-field::-webkit-input-placeholder {
+  color: #cccccc;
+  font-size: 1.6rem;
+}
+
+.wrap .sub-con .login-form form .txt-field:-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 1.6rem;
+}
+
+.wrap .sub-con .login-form form .txt-field::-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 1.6rem;
 }
 
 .wrap .sub-con .login-form form .txt-field::placeholder {
@@ -868,6 +884,21 @@ html input:focus {
   width: 240px;
 }
 
+.wrap .sub-con-02 .apply-form ul li input::-webkit-input-placeholder {
+  color: #cccccc;
+  font-weight: 100;
+}
+
+.wrap .sub-con-02 .apply-form ul li input:-ms-input-placeholder {
+  color: #cccccc;
+  font-weight: 100;
+}
+
+.wrap .sub-con-02 .apply-form ul li input::-ms-input-placeholder {
+  color: #cccccc;
+  font-weight: 100;
+}
+
 .wrap .sub-con-02 .apply-form ul li input::placeholder {
   color: #cccccc;
   font-weight: 100;
@@ -1049,6 +1080,7 @@ html input:focus {
     font-size: 50%;
   }
   .wrap .top {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(2%, #ffa058), to(#ff586f));
     background: linear-gradient(180deg, #ffa058 2%, #ff586f 100%);
   }
   .wrap .top .nav-wrap .navi {
@@ -1329,3 +1361,4 @@ html input:focus {
     width: 100%;
   }
 }
+/*# sourceMappingURL=style.css.map */
