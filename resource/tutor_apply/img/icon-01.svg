@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#ffa058"/>
+            <stop offset="1" stop-color="#ff586f"/>
+        </linearGradient>
+        <style>
+            .cls-2{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="그룹_37" data-name="그룹 37" transform="translate(-1336 -928)">
+        <circle id="타원_4" data-name="타원 4" cx="90" cy="90" r="90" transform="translate(1336 928)" style="fill:#fcfcfc"/>
+        <g id="noun-thumb-1517825" transform="translate(1263.2 898.599)">
+            <path id="패스_695" data-name="패스 695" class="cls-2" d="m317.616 123.561-8.582 30.081a10.384 10.384 0 0 1-9.939 7.5h-46.448a3.447 3.447 0 0 1-3.447-3.442v-48.269a3.438 3.438 0 0 1 .684-2.059l18.589-24.96a10.431 10.431 0 0 1 18.651 6.424v17.148h17.245a13.79 13.79 0 0 1 13.248 17.578z" transform="translate(-106.818)"/>
+            <path id="패스_696" data-name="패스 696" class="cls-2" d="M132.038 212.8h-13.79a3.447 3.447 0 0 0-3.448 3.448v48.267a3.447 3.447 0 0 0 3.448 3.448h13.79a3.447 3.447 0 0 0 3.448-3.448v-48.267a3.447 3.447 0 0 0-3.448-3.448zm-6.9 46.543a5.171 5.171 0 1 1 5.171-5.171 5.172 5.172 0 0 1-5.166 5.171z" transform="translate(0 -106.818)"/>
+        </g>
+    </g>
+</svg>
